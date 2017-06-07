@@ -1,5 +1,4 @@
-[~ if(( r.skills && r.skills.sets && r.skills.sets.length ) ||
-      ( r.languages && r.languages.length ) ) { ~]
+[~ if( r.skills && r.skills.sets && r.skills.sets.length) { ~]
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
@@ -19,14 +18,6 @@
     {[~ print( sks.skills.join(', ') ) ~]} % Skills
 
 [~ }); ~]
-[~ } ~]
-
-[~ if (r.languages && r.languages.length ) { ~]
-%---------------------------------------------------------
-  \cvskill
-    {Languages} % Category
-    {[~ print( _.map( r.languages, function(lang) { return lang.language; }).join(', ')) ~]} % Skills
-
 [~ } ~]
 
 %---------------------------------------------------------
