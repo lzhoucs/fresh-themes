@@ -24,6 +24,7 @@
         "src/latex/examples/resume/honors.tex",
         "src/latex/examples/resume/presentation.tex",
         "src/latex/examples/resume/summary.tex",
+        "src/latex/examples/resume/skills.tex",
         "src/latex/examples/resume/writing.tex",
         "src/latex/examples/cv/committees.tex",
         "src/latex/examples/cv/education.tex",
