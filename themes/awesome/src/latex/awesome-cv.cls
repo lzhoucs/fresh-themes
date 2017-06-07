@@ -498,7 +498,6 @@
 % Define a subsection for CV
 % Usage: \cvsubsection{<subsection-title>}
 \newcommand{\cvsubsection}[1]{%
-  \subsectionstyle{#1}
   \phantomsection
 }
 
